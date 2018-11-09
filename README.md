@@ -1,5 +1,14 @@
+# freeCode Camp API and Microservices Challenges
 
-# API Project: Timestamp Microservice for FCC
+### Projects & Microservices Challenges
+
+* [Timestamp Microservice](#API-Project:-Timestamp-Microservice-for-FCC)
+* [Request Header Parser Microservice](#API-Project:-Request-Header-Parser-Microservice-for-freeCodeCamp)
+* [URL Shortner Microservice](#API-Project:-URL-Shortner-Microservice-for-freeCodeCamp)
+* [Excercise Tracker](#API-Project:-Excercise-Tracker-REST-API)
+* [File Metadata Microservice](#API-Project:-File-Metadata-Microservice-for-freeCodeCamp)
+
+## API Project: Timestamp Microservice for FCC
 
 ### User stories :
 
@@ -18,7 +27,7 @@ e.g. `{"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}`.
 #### Example output:
 * { "unix": 1450137600, "natural": "December 15, 2015" }
 
-# API Projet: Request Header Parser Microservice for freeCodeCamp
+## API Project: Request Header Parser Microservice for freeCodeCamp
 
 ### User Stories :
 
@@ -32,7 +41,7 @@ e.g. `{"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}`.
 
 * `{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5","software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}`
 
-# API Project: URL Shortner Microservice for freeCodeCamp
+## API Project: URL Shortner Microservice for freeCodeCamp
 
 ### User Stories
 
@@ -53,7 +62,7 @@ POST [project_url]/api/shorturl/new - body (urlencoded) : url=[https://google.co
 http://forum.freecodecamp.com
 
 
-# Excercise Tracker REST API
+## API Project: Excercise Tracker REST API
 
 #### A microservice project, part of Free Code Camp's curriculum
 
@@ -65,7 +74,7 @@ http://forum.freecodecamp.com
 4. I can retrieve a full exercise log of any user by getting /api/exercise/log with a parameter of userId(_id). Return will be the user object with added array log and count (total exercise count).
 5. I can retrieve part of the log of any user by also passing along optional parameters of from & to or limit. (Date format yyyy-mm-dd, limit = int)
 
-# API Project: File Metadata Microservice for freeCodeCamp
+## API Project: File Metadata Microservice for freeCodeCamp
 
 ### User stories:
 
